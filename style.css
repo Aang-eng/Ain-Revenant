@@ -4,7 +4,9 @@ html {
     padding: 0;
 }
 
-.container {}
+.container {
+    
+}
 
 .navbar-container {
     background-color: grey;
@@ -28,6 +30,17 @@ html {
     font-size: 150%;
 }
 
+#biodata {
+    background: grey;
+    width: 40vh;
+    height: 5vh;
+    color: white;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .li-navbar:hover {
     background-color: red;
     transition: .5s ease-in-out;
@@ -40,10 +53,6 @@ html {
     text-decoration: none;
     font-weight: 800;
 }
-
-/* div {
-    background-color:blueviolet;
-} --> ini kalau semua div nya */ 
 
 .content-container {
     background-color: white;
